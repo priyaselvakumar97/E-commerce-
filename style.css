@@ -1,0 +1,37 @@
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  .divider{
+    height: 3rem;
+    background-color: white;
+  }
+  .parent{
+    display: flex;
+    padding: 2rem;
+    height: 250px;
+  }
+  .dress{
+    max-height: 160px;
+    max-width: 150px;
+  }
+
+@media(max-width:600px){
+  .product-cart{
+      margin: 1rem auto;
+      max-width:275 ;
+  }
+}
+
+  @media(max-width:920px){
+    .product-cart{
+        margin: 1rem auto;
+        max-width:275 ;
+    }
+
+
+
+}
